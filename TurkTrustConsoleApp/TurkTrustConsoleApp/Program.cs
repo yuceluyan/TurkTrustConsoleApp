@@ -94,7 +94,7 @@ namespace TurkTrustConsoleApp
             conn.Open();
 
             SqlDataReader reader;
-            reader = new SqlCommand(@"select P1.Adi as çPerAd,P1.SoyAdi as çPerSoyad,P2.Adi as yPerAd,P2.SoyAdi as yPerSoyad from Personeller P1 inner join Personeller P2 on P1.PersonelID=P2.BagliCalistigiKisi
+            reader = new SqlCommand(@"select P1.Adi as çPerAd,P1.SoyAdi as çPerSoyad,P2.Adi as yPerAd,P2.SoyAdi as yPerSoyad from Personeller P1 LEFT OUTER JOIN Personeller P2 on P1.PersonelID=P2.BagliCalistigiKisi
             ", conn).ExecuteReader();
 
             if (reader.HasRows)
@@ -167,13 +167,13 @@ namespace TurkTrustConsoleApp
             conn.Open();
 
             SqlDataReader reader;
-            reader = new SqlCommand(@"SELECT COUNT (Ulke) as total FROM musteriler WHERE Ulke like 'Germany'", conn).ExecuteReader();
+            reader = new SqlCommand(@"select Count(MusteriId),Ulke from Musteriler where Ulke='Germany' group by Ulke", conn).ExecuteReader();
 
             if (reader.HasRows)
             {
                 while (reader.Read())
                 {
-                    Console.WriteLine(" {0} ", reader.GetString(0));
+                    Console.WriteLine(" {0} | {1} ", reader.GetString(0), reader.GetString(1));
                 }
             }
             else

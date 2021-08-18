@@ -1,9 +1,0 @@
-C:\Users\Samsung\source\repos\TurkTrustConsoleApp\TurkTrustConsoleApp\bin\Debug\TurkTrustConsoleApp.exe.config
-C:\Users\Samsung\source\repos\TurkTrustConsoleApp\TurkTrustConsoleApp\bin\Debug\TurkTrustConsoleApp.exe
-C:\Users\Samsung\source\repos\TurkTrustConsoleApp\TurkTrustConsoleApp\bin\Debug\TurkTrustConsoleApp.pdb
-C:\Users\Samsung\source\repos\TurkTrustConsoleApp\TurkTrustConsoleApp\obj\Debug\TurkTrustConsoleApp.csproj.CoreCompileInputs.cache
-C:\Users\Samsung\source\repos\TurkTrustConsoleApp\TurkTrustConsoleApp\obj\Debug\TurkTrustConsoleApp.exe
-C:\Users\Samsung\source\repos\TurkTrustConsoleApp\TurkTrustConsoleApp\obj\Debug\TurkTrustConsoleApp.pdb
-C:\Users\Samsung\source\repos\TurkTrustConsoleApp\TurkTrustConsoleApp\bin\Debug\Database1.mdf
-C:\Users\Samsung\source\repos\TurkTrustConsoleApp\TurkTrustConsoleApp\bin\Debug\Database1_log.ldf
-C:\Users\Samsung\source\repos\TurkTrustConsoleApp\TurkTrustConsoleApp\obj\Debug\TurkTrustConsoleApp.csprojAssemblyReference.cache
